@@ -1,0 +1,105 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+  background-color: black;
+  color: white;
+  transition: background-color 0.5s, color 0.5s;
+}
+
+body.dark-mode {
+  background-color: #ffffff;
+  color: #ffffff;
+}
+
+.green-colour {
+  color: green;
+}
+
+.red-colour {
+  color: red;
+}
+
+.top {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  text-align: #83c8ca;
+  padding: 10px 20px;
+}
+
+.top-left h1 {
+  text-align: center;
+  margin: 0 20px;
+}
+
+.top-middle {
+  flex: 1;
+  display: flex;
+  justify-content: around;
+}
+
+.middle-bars select,
+.middle-bars button {
+  padding: 10px 5px;
+  text-size: 16px;
+  border-radius: 5px;
+  margin: 5px;
+  cursor: pointer;
+  background-color: #68c3c0;
+  color: white;
+}
+
+.top-right button {
+  padding: 10px 5px;
+  text-size: 16px;
+  border-radius: 5px;
+  margin: 5px;
+  cursor: pointer;
+  background-color: #68c3c0;
+  color: white;
+}
+
+.middle-part {
+  width: 80%;
+  margin: auto;
+  overflow: hidden;
+}
+
+.detail {
+  text-align: center;
+}
+
+.detail-account {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  text-align: #83c8ca;
+  padding: 10px 20px;
+}
+
+#detail-price {
+  text-align: center;
+  margin-bottom: 20px;
+  font-size: 80px;
+}
+
+#best-price {
+  text-align: center;
+  font-size: 18px;
+  margin-bottom: 30px;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-bottom: 20px;
+  font-size: 24px;
+}
+
+th,
+td {
+  padding: 10px;
+  text-align: center;
+  font-size: 30px;
+}
